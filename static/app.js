@@ -1,5 +1,4 @@
-import { useState, useRef } from "react";
-import * as XLSX from "xlsx";
+const { useState, useRef } = React;
 
 // ─── CONSTANTS ────────────────────────────────────────────────────────────────
 const SECTOR_NAMES = {1:"Neurovascular & Neurotech",2:"Orthopedics & Musculoskeletal",3:"Cardiovascular & Vascular",4:"Cardiovascular Devices",5:"In-Vitro Diagnostics",6:"Surgical Robotics & Endoscopy",7:"Hospital IT / SaMD",8:"Ophthalmology & Laser",9:"Regenerative Medicine",10:"Monitoring & Implantables"};
