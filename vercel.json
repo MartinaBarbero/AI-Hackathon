@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/find_comparables", "destination": "/server.py" },
-    { "source": "/generate_valuation", "destination": "/server.py" },
-    { "source": "/download_excel", "destination": "/server.py" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
